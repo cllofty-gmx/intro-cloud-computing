@@ -4,6 +4,8 @@ application/.settings/
 
 application/upload-dir/
 
+application/src/main/resources/application.properties
+
 *.class
 
 # Mobile Tools for Java (J2ME)

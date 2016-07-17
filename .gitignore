@@ -1,8 +1,8 @@
-bin/
+application/bin/
 
-.settings/
+application/.settings/
 
-upload-dir/
+application/upload-dir/
 
 *.class
 
@@ -18,7 +18,7 @@ upload-dir/
 hs_err_pid*
 
 .gradle
-build/
+application/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting

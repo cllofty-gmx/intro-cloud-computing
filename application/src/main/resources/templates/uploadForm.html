@@ -9,7 +9,7 @@
     <meta name="description" content=""></meta>
     <meta name="author" content=""></meta>
 
-    <title>Image Share</title>
+    <title>Image Gallery</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"></link>
@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button> -->
-                <a class="navbar-brand" href="#">Image Share</a>
+                <a class="navbar-brand" href="#">Image Gallery</a>
 
                 <div class="pull-right">
                     <div class="btn-group">
@@ -55,7 +55,7 @@
 
     <!-- Page Content -->
     <div class="container">
-    
+
 		<div class="alert alert-danger" th:if="${message}">
 			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
   			<strong>Sorry!</strong> An error has occurred => <span th:text="${message}">An error</span>
@@ -70,7 +70,7 @@
                 <a class="thumbnail" href="#" th:attr="data-image=@{/uploaded/image/{path}(path=${file})}" data-toggle="modal" data-target="#imageViewModal">
                     <img width="400" height="300" class="img-responsive" th:src="@{/uploaded/thumbnail/{path}(path=${file})}" src="http://placehold.it/400x300" alt=""></img>
                 </a>
-            </div>            
+            </div>
         </div>
 
         <hr />
@@ -95,9 +95,9 @@
 
     <!-- Our custom JavaScript -->
     <script src="js/fileupload.js"></script>
-    
+
     <!-- Image view modal dialogue -->
-    
+
 	<div id="imageViewModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	  <div class="modal-dialog">
 	    <div class="modal-content">

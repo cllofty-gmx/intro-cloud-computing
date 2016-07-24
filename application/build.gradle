@@ -21,7 +21,7 @@ run {
 }
 
 jar {
-    baseName = 'image-share'
+    baseName = 'image-gallery'
     version =  '0.1.0'
 }
 

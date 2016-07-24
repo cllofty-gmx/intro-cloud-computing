@@ -31,10 +31,12 @@ https://github.com/
 
 If you are new to Github, the sign up process has a link to help familiarize yourself with Github.
 
-## The cmu-mis-iccfb project
+## The cmu-mis-iccfb repository
 This class has a Github project where we will be sharing code.  For this assignment, fork the "intro-cloud-computing" repository.
 
 https://github.com/cmu-mis-iccfb/intro-cloud-computing
+
+You should use "git clone" to download the forked repository to your local computer.
 
 
 # Setup Cloud Services
@@ -52,6 +54,18 @@ https://aws.amazon.com/ec2/
 Enable HTTP in the Security Groups.
 
 Don't loose the SSH keys!  You will not be able to manage your server without these keys.
+
+#### SSH into EC2
+You will use SSH to log into your EC2 instance.
+
+On Windows, you can use Putty as an SSH client.
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+
+On Mac OSX and Linux, use the pre-existing SSH client -
+
+http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html
+
 
 ### S3
 The image gallery application uses S3 to store the images.  You will need to setup a free S3 account.
